@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.theappwizard.androidcarousel.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--Created By Synnapps    -->
+    <!--  Shreyas Vilaschandra Bhike  -->
+    <!--The App Wizard    -->
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fillColor="@color/Goldenrod"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp">
+
+    </com.synnapps.carouselview.CarouselView>
+
+    <TextView
+        android:id="@+id/tvone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/White"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="25dp"
+        android:text="Android Carousel : Recreated Project" />
+
+
+    <TextView
+        android:layout_below="@+id/tvone"
+        android:id="@+id/tvtwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/White"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="25dp"
+        android:text="Created By Synnapps" />
+
+
+
+</RelativeLayout>
